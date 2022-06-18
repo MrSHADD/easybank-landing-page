@@ -1,0 +1,294 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Public Sans;
+    width: 100%;
+}
+
+.header{
+    background-color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    margin: auto;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.hamburger{
+    display: none;
+}
+
+.nav-item {
+    margin-left: 1.5rem;
+}
+
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.img-logo{
+    margin-left: 100px;
+}
+
+.nav-link{
+    color: hsl(233, 8%, 62%);
+    font-weight: 700;
+}
+
+
+.btn-req{
+    color: white;
+    border-style: none;
+    border-radius: 20px;
+    font-size: 13px;
+    margin-right: 80px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    background: rgb(49,211,92);
+    background: linear-gradient(120deg, rgba(49,211,92,1) 20%, rgba(43,183,218,1) 80%);
+}
+
+.btn-req:hover{
+    opacity: 0.5;
+}
+
+/* main */
+.main{
+    margin: 0;
+}
+
+.section1{
+    /* background-color: hsl(220, 16%, 96%); */
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: flex;
+    background-color: hsl(0, 0%, 98%);
+    height: 640px;
+}
+
+.img-bg{
+    margin-top: -260px;
+    margin-left: -50px;
+    /* margin-right: 20px; */
+}
+
+.intro{
+    padding-left: 120px;
+    padding-top: 120px;
+}
+.div-img-bg{
+    padding-left: 0px;
+    margin-left: 0px;
+    overflow-y: visible;
+}
+
+.next-gen{
+    font-size: 50px;
+    width: 500px;
+    margin-right: -70px;
+    font-family: Public Sans;
+    font-weight: 300;
+    color: hsl(233, 26%, 24%)
+}
+
+.para{
+    margin-right: 20px;
+    margin-top: -20px;
+    margin-bottom: 35px;
+    line-height: 25px;
+    color: hsl(233, 8%, 62%);
+}
+
+.mockups{
+    margin-top: -900px;
+    margin-left: 130px;
+    /* overflow: visible; */
+}
+
+/* section2 */
+.section2{
+    height: 640;
+    background-color: hsl(220, 16%, 96%);
+  
+}
+
+.reasons{
+    padding-left: 120px;
+    padding-top: 70px;
+}
+
+.why-choose{
+    font-size: 40px;
+    width: 500px;
+    margin-right: -70px;
+    font-family: Public Sans;
+    font-weight: 300;
+    color: hsl(233, 26%, 24%)
+}
+
+.para2{
+    line-height: 25px;
+    color: hsl(233, 8%, 62%);
+    margin-right: 550px;
+    margin-bottom: 80px;
+}
+
+.reasons-list{
+    display: flex;
+    justify-content:space-between;
+    padding-left: 120px;
+    padding-right: 70px;
+    font-family: Public Sans;
+    /* margin-bottom: 90px; */
+}
+
+.reasons-list p{
+    font-size: 15px;
+    line-height: 25px;
+    padding-right: 14px;
+    margin-right: 7px;
+    color: hsl(233, 8%, 62%);
+    margin-bottom: 90px;
+}
+
+/* section3 */
+.section3{
+    height: 640;
+    background-color: hsl(0, 0%, 98%); 
+}
+
+.latest-articles-contents{
+    display: flex;
+    padding-left: 120px;
+    padding-right: 70px;
+}
+
+.latest-articles-contents h5{
+    font-size: 9px;
+    color: hsl(233, 8%, 62%);
+    margin-right: 20px;
+    /* margin-right: 30px; */
+    margin-left: 20px;
+}
+
+.latest-articles-contents h3{
+    font-size: 15px;
+    margin-right: 30px;
+    margin-left: 20px;
+    color: hsl(233, 26%, 24%);
+    margin-bottom: 0px;
+    
+}
+
+.latest-articles-contents p{
+    font-size: 11px;
+    color: hsl(233, 8%, 62%);
+    margin-right: 30px;
+    margin-left: 20px;
+}
+.articles{
+    background-color: white;
+    width: 240px;
+    margin-right: 20px;
+}
+
+.img-currency{
+    height: 190px;
+    width: 240px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/* footer */
+.footer{
+    background-color:hsl(233, 26%, 24%);
+    display: flex;
+    padding: 40px 0px 20px 30px;
+}
+
+.footer-logos{
+    margin-right: 80px;
+}
+
+.socials-logo{
+    margin-left: 100px;
+    margin-top: 50px;
+    min-width: 170px;
+    
+}
+.socials-logo :hover{
+
+}
+
+.socials{
+    margin-right: 12px;
+}
+
+.list{
+    display: flex;
+    font-size: 13px;
+    color: hsl(220, 16%, 96%);
+    font-weight: 100;
+    line-height: 30px;
+    margin-top: 2px;
+}
+
+.list-left{
+    margin-right: 120px;
+}
+
+/* .btn-text{
+    margin-left: 270px;
+    text-align: left;
+    background-color: blue;
+    padding-left: -90px;
+} */
+
+.btn-text h5{
+    margin-left: 270px;
+    color: hsl(233, 8%, 62%);
+}
+
+.btn-text button{
+    margin-left: 320px;
+}
+
+.attribution{
+    background-color: hsl(233, 26%, 24%);
+    color: white;
+}
+
+.attribution a {
+    color: wheat;
+}
+
+
+/* for mobile */
+@media only screen and (max-width: 600px) {
+
+.nav-menu{
+    
+}
+
+}
