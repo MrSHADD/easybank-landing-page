@@ -4,7 +4,7 @@ export default function Footer(){
     return(
         <div className="footer">
             <div className="footer-logos">
-               <img src="./images/logo2.svg" className="img-logo"/>
+               <img src="./images/logo2.svg" className="img-logo2"/>
                 <div className="socials-logo">
                     <img src="./images/icon-facebook.svg" className="socials"/>
                     <img src="./images/icon-youtube.svg"className="socials"/>
@@ -16,14 +16,14 @@ export default function Footer(){
             <div>
                 <ul className="list">
                     <div className="list-left">
-                        <li>About Us</li>
-                        <li>Contact</li>
-                        <li>Blog</li>
+                    <a href="#"><li>About Us</li></a>
+                    <a href="#"><li>Contact</li></a>
+                    <a href="#"><li>Blog</li></a>
                     </div>
                     <div className="list-right">
-                        <li>Careers</li>
-                        <li>Support</li>
-                        <li>Privacy Policy</li>
+                    <a href="#"><li>Careers</li></a>
+                    <a href="#"><li>Support</li></a>
+                    <a href="#"><li>Privacy Policy</li></a>
                     </div>
                 </ul>
             </div>
