@@ -4,13 +4,13 @@ export default function Footer(){
     return(
         <div className="footer">
             <div className="footer-logos">
-               <img src="./images/logo2.svg" className="img-logo2"/>
+               <img src="./images/logo2.svg" className="img-logo2" alt="logo2"/>
                 <div className="socials-logo">
-                    <img src="./images/icon-facebook.svg" className="socials"/>
-                    <img src="./images/icon-youtube.svg"className="socials"/>
-                    <img src="./images/icon-twitter.svg"className="socials"/>
-                    <img src="./images/icon-pinterest.svg"className="socials"/>
-                    <img src="./images/icon-instagram.svg"className="socials"/>
+                    <img src="./images/icon-facebook.svg" className="socials" alt="icon"/>
+                    <img src="./images/icon-youtube.svg"className="socials" alt="icon"/>
+                    <img src="./images/icon-twitter.svg"className="socials" alt="icon"/>
+                    <img src="./images/icon-pinterest.svg"className="socials" alt="icon"/>
+                    <img src="./images/icon-instagram.svg"className="socials" alt="icon"/>
                 </div>
             </div>
             <div>
