@@ -5,8 +5,8 @@ export default function Main(){
         <main className="main">
             <section className="section1">
             <div className="div-img-bg-mobi">
-                 <img src="./images/bg-intro-mobile.svg" className="img-bg"/>
-                 <img src="./images/image-mockups.png" className="mockups"/>
+                 <img src="./images/bg-intro-mobile.svg" className="img-bg" alt="design"/>
+                 <img src="./images/image-mockups.png" className="mockups" alt="mockups"/>
             </div>
               <div className="intro">
                 <h1 className="next-gen"> Next generation digital banking</h1>
@@ -17,8 +17,8 @@ export default function Main(){
                 
               </div>
               <div className="div-img-bg">
-                 <img src="./images/bg-intro-desktop.svg" className="img-bg"/>
-                 <img src="./images/image-mockups.png" className="mockups"/>
+                 <img src="./images/bg-intro-desktop.svg" className="img-bg"alt="design"/>
+                 <img src="./images/image-mockups.png" className="mockups"alt="mockups"/>
               </div>
             </section>
             <section className="section2">
@@ -30,7 +30,7 @@ export default function Main(){
                 </div>
                 <div className="reasons-list">
                     <div className="reasons-item">
-                        <img src="./images/icon-online.svg" className=""/>
+                        <img src="./images/icon-online.svg" alt="online"/>
                         <h3>Online Banking</h3>
                         <p>
                             Our modern web and mobile applications allow you to keep track of your finances 
@@ -39,7 +39,7 @@ export default function Main(){
                     </div>
 
                     <div className="reasons-item">
-                        <img src="./images/icon-budgeting.svg" className=""/>
+                        <img src="./images/icon-budgeting.svg" alt="budgeting"/>
                         <h3>Simple Budgeting</h3>
                         <p>
                             See exactly where your money goes each month. Receive notifications when you’re 
@@ -47,7 +47,7 @@ export default function Main(){
                         </p>
                     </div>
                     <div className="reasons-item">
-                        <img src="./images/icon-onboarding.svg" className=""/>
+                        <img src="./images/icon-onboarding.svg" alt="onboarding"/>
                         <h3>Fast Onboarding</h3>
                         <p>
                             We don’t do branches. Open your account in minutes online and start taking control 
@@ -55,7 +55,7 @@ export default function Main(){
                         </p>
                     </div>
                     <div className="reasons-item">
-                        <img src="./images/icon-api.svg" className=""/>
+                        <img src="./images/icon-api.svg" alt="api"/>
                         <h3> Open API</h3>
                         <p>
                             Manage your savings, investments, pension, and much more from one account. Tracking 
@@ -70,7 +70,7 @@ export default function Main(){
                 </div>
                 <div className="latest-articles-contents">
                     <div className="articles">
-                        <img src="./images/image-currency.jpg" className="img-currency"/>
+                        <img src="./images/image-currency.jpg" className="img-currency" alt="currency"/>
                         <h5>By Claire Robinson</h5>
                         <a href="#"><h3 className="articles-topic">Receive money in any currency with no fees</h3></a>
                         <p>
@@ -79,7 +79,7 @@ export default function Main(){
                         </p>
                     </div>
                     <div className="articles">
-                        <img src="./images/image-restaurant.jpg" className="img-currency"/>
+                        <img src="./images/image-restaurant.jpg" className="img-currency" alt="restaurant"/>
                         <h5>By Wilson Hutton</h5>
                         <a href="#"><h3 className="articles-topic"> Treat yourself without worrying about money</h3></a>
                         <p>
@@ -88,7 +88,7 @@ export default function Main(){
                         </p>
                     </div>
                     <div className="articles">
-                        <img src="./images/image-plane.jpg" className="img-currency"/>
+                        <img src="./images/image-plane.jpg" className="img-currency" alt="plane"/>
                         <h5>By Wilson Hutton</h5>
                         <a href="#"><h3 className="articles-topic">Take your Easybank card wherever you go</h3></a>
                         <p>
@@ -97,7 +97,7 @@ export default function Main(){
                         </p>
                     </div>
                     <div className="articles">
-                        <img src="./images/image-confetti.jpg" className="img-currency"/>
+                        <img src="./images/image-confetti.jpg" className="img-currency" alt="confetti"/>
                         <h5>By Claire Robinson</h5>
                         <a href="#"><h3 className="articles-topic">Our invite-only Beta accounts are now live!</h3></a>
                         <p>
