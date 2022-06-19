@@ -4,7 +4,7 @@ export default function Header(){
     return(
         <header className="header">
                     
-                        <img src="./images/logo.svg" className="img-logo"/>
+                        <img src="./images/logo.svg" className="img-logo" alt="logo"/>
                     <div className="navbar">
                         <ul className="nav-menu">
                             <li className="nav-item">
@@ -31,7 +31,7 @@ export default function Header(){
                         <button className="btn-req">Request Invite</button>
                     </div>
                     <div class="hamburger">
-                                <img src="./images/icon-hamburger.svg"/>
+                                <img src="./images/icon-hamburger.svg" alt="Hamburger-menu"/>
                     </div>
         </header>
     )
